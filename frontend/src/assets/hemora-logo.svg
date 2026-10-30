@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" fill="none">
+  <defs>
+    <linearGradient id="bloodGrad" x1="10%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="50%" stop-color="#dc2626" />
+      <stop offset="100%" stop-color="#7f1d1d" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#7f1d1d" flood-opacity="0.3" />
+    </filter>
+  </defs>
+  
+  <!-- Blood Drop Icon -->
+  <g transform="translate(6, 6)" filter="url(#dropShadow)">
+    <path d="M24 4 C24 4 10 20 10 32 C10 40 16 46 24 46 C32 46 38 40 38 32 C38 20 24 4 24 4 Z" fill="url(#bloodGrad)" />
+    <!-- White Heart / Cross accent -->
+    <path d="M24 22 C22 19 18 20 18 24 C18 28 24 33 24 33 C24 33 30 28 30 24 C30 20 26 19 24 22 Z" fill="#ffffff" opacity="0.9" />
+    <!-- Highlight shine -->
+    <ellipse cx="18" cy="27" rx="3" ry="6" transform="rotate(-30 18 27)" fill="#ffffff" opacity="0.35" />
+  </g>
+
+  <!-- Typography -->
+  <text x="62" y="38" font-family="'Outfit', 'Inter', sans-serif" font-size="28" font-weight="800" fill="#7f1d1d" letter-spacing="1">HEMORA</text>
+  <text x="63" y="49" font-family="'Inter', sans-serif" font-size="8" font-weight="600" fill="#64748b" letter-spacing="2.5">BLOOD BANK NETWORK</text>
+</svg>

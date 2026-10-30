@@ -1,0 +1,6 @@
+# Alembic / Flask-Migrate Directory
+Generic single-database configuration with Flask-SQLAlchemy.
+To initialize migrations in a fresh environment, run:
+flask db init
+flask db migrate -m "Initial migration"
+flask db upgrade
